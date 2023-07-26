@@ -1,0 +1,69 @@
+@font-face {
+	font-family: 'Cursed Timer ULiL';
+	src: url('fonts/cursed.ttf');
+}
+
+* {
+	box-sizing: border-box;
+}
+
+h1 {
+	margin: 0;
+}
+
+body {
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	text-align: center;
+	margin: 0;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.main {
+	width: 550px;
+	padding: 50px;
+	background: #1b244a;
+	display: flex;
+	justify-content: space-between;
+}
+
+.bloc1,
+.bloc2 {
+	width: 160px;
+}
+
+.title {
+	font-size: 45px;
+	font-weight: 700;
+	color: #fff;
+}
+.value,
+button {
+	font-family: 'Cursed Timer ULiL', sans-serif;
+}
+
+.value {
+	padding-top: 15px;
+	margin: 15px 0;
+	font-size: 100px;
+	background: #080001;
+	border-radius: 7px;
+	color: #f94f6d;
+}
+
+.action {
+	display: flex;
+	justify-content: space-between;
+}
+
+button {
+	padding: 8px;
+	font-size: 18px;
+	background: transparent;
+	border: 2px solid #9aabd8;
+	color: #9aabd8;
+	border-radius: 4px;
+	cursor: pointer;
+}
