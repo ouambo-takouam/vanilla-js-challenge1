@@ -43,3 +43,15 @@ function addThree() {
 	count2 += 3;
 	updateCount2();
 }
+
+// RESET FEATURE
+
+function reset1() {
+	count1 = 0;
+	updateCount1();
+}
+
+function reset2() {
+	count2 = 0;
+	updateCount2();
+}
